@@ -56,7 +56,7 @@ function App() {
             <span className="cta-glow" />
           </a>
           <div className="hero-buttons">
-            <a href="#" className="hero-btn" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/stoned_ape_dev" className="hero-btn" target="_blank" rel="noopener noreferrer">
               Twitter
             </a>
             <a href="#" className="hero-btn" target="_blank" rel="noopener noreferrer">
@@ -110,7 +110,7 @@ function App() {
             the inevitable screenshots.
           </p>
           <div className="social-links">
-            <a href="#" className="social-link">Twitter</a>
+            <a href="https://x.com/stoned_ape_dev" className="social-link" target="_blank" rel="noopener noreferrer">Twitter</a>
             <a href="#" className="social-link">Telegram</a>
             <a href="#" className="social-link">DexScreener</a>
           </div>
