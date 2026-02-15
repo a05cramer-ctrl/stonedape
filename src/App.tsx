@@ -4,6 +4,9 @@ import apeImageNew from './image copy.png'
 import './App.css'
 
 const PARTICLES = 40
+const CONTRACT_ADDRESS = 'HPAhEyugwi3Q4ssifDKENWUHWH2bg89zqJwVzYiHpump'
+const PUMP_FUN_URL = `https://pump.fun/${CONTRACT_ADDRESS}`
+const DEXSCREENER_URL = `https://dexscreener.com/solana/${CONTRACT_ADDRESS}`
 
 function App() {
   const [particles] = useState(() =>
@@ -56,10 +59,13 @@ function App() {
             <span className="cta-glow" />
           </a>
           <div className="hero-buttons">
+            <a href={PUMP_FUN_URL} className="hero-btn hero-btn-buy" target="_blank" rel="noopener noreferrer">
+              Buy on Pump.fun
+            </a>
             <a href="https://x.com/stoned_ape_dev" className="hero-btn" target="_blank" rel="noopener noreferrer">
               Twitter
             </a>
-            <a href="#" className="hero-btn" target="_blank" rel="noopener noreferrer">
+            <a href={DEXSCREENER_URL} className="hero-btn" target="_blank" rel="noopener noreferrer">
               Chart
             </a>
           </div>
@@ -112,7 +118,7 @@ function App() {
           <div className="social-links">
             <a href="https://x.com/stoned_ape_dev" className="social-link" target="_blank" rel="noopener noreferrer">Twitter</a>
             <a href="#" className="social-link">Telegram</a>
-            <a href="#" className="social-link">DexScreener</a>
+            <a href={DEXSCREENER_URL} className="social-link" target="_blank" rel="noopener noreferrer">DexScreener</a>
           </div>
         </div>
       </section>

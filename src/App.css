@@ -316,6 +316,17 @@
   box-shadow: 0 0 20px var(--neon-cyan);
 }
 
+.hero-btn-buy {
+  border-color: var(--neon-green);
+  background: rgba(57, 255, 20, 0.15);
+}
+
+.hero-btn-buy:hover {
+  background: var(--neon-green);
+  color: var(--black);
+  box-shadow: 0 0 20px var(--neon-green);
+}
+
 /* ========== SECTIONS ========== */
 .section {
   padding: 4rem 2rem;
